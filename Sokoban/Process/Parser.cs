@@ -8,6 +8,7 @@ namespace Sokoban.Process
 {
     class Parser
     {
+
         public static Maze ParseMazeFromFile(int mazeId)
         {
             string file = @"./Resources/doolhof" + mazeId + ".txt";
